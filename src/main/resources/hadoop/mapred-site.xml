@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<configuration>
+  <property>
+    <name>mapred.job.tracker</name>
+    <value>hdfs://master:9001</value>
+  </property>
+  <!--<property>-->
+    <!--<name>mapred.child.java.opts</name>-->
+    <!--<value>-Xmx1g</value>-->
+  <!--</property>-->
+  <!--<property>-->
+    <!--<name>mapreduce.map.java.opts</name>-->
+    <!--<value>-Xmx1g</value>-->
+  <!--</property>-->
+</configuration>
